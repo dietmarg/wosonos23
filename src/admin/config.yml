@@ -39,7 +39,21 @@ collections:
         fields:
           - {label: Titel Zeile 1, name: title1, widget: string}
           - {label: Titel Zeile 2, name: title2, widget: string}
-          - {label: Subline, name: subline, widget: markdown}      
+          - {label: Subline, name: subline, widget: markdown}     
+          - label: "Co-Inviters"
+            name: "coinviters"
+            widget: list
+            fields: 
+            - {label: Name, name: name, widget: string}
+            - {label: Country, name: country, widget: string}
+            - {label: E-Mail, name: email, widget: string}
+            - label: Bild
+              name: img
+              widget: object
+              allow_multiple: false
+              fields:
+                - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
+                - { label: "Alt Text", name: "alt", widget: "string" }    
   - label: "Settings"
     name: "settings"
     editor:
