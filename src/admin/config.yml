@@ -37,7 +37,8 @@ collections:
         name: "front"
         file: "src/_data/frontpage.yaml"
         fields:
-          - {label: Title1, name: title1, widget: string}
+          - {label: Titel Zeile 1, name: title1, widget: string}
+          - {label: Titel Zeile 2, name: title2, widget: string}
           - {label: Subline, name: subline, widget: markdown}      
   - label: "Settings"
     name: "settings"
