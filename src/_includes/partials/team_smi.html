@@ -8,13 +8,13 @@
       </div>
       <div class="lg:col-span-2">
         <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-          {% for coinviter in front.coinviters %}
+          {% for coin in front.coinviters %}
           <li>
             <div class="flex items-center space-x-4 lg:space-x-6">
-              <img class="h-16 w-16 rounded-full lg:h-20 lg:w-20" loading="lazy" src={{ coinviter.img.url }} alt={{ coinviter.img.alt }} >
+              <img class="h-16 w-16 rounded-full lg:h-20 lg:w-20" loading="lazy" src={{ coin.img.url }} alt={{ coin.img.alt }} >
               <div class="space-y-1 text-lg font-medium leading-6">
-                <h3>{{ coinviter.name }}</h3>
-                <p class="text-indigo-600">{{ coinviter.country }}</p>
+                <h3>{{ coin.name }}</h3>
+                <p class="text-indigo-600">{{ coin.country }}</p>
               </div>
             </div>
           </li>

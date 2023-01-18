@@ -353,7 +353,7 @@ path: home
           <span class="block xl:inline">{% if frontpage.title1 %}{{ frontpage.title1 }}{% endif %}</span>
           <span class="block text-indigo-600 xl:inline">{% if frontpage.title2 %}{{ frontpage.title2 }}{% endif %}</span>
         </h1>
-        <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">The World Open Space on Open Space 2023 is happening 19.-21. October 2023 at the Beach Mitte in Berlin.</p>
+        <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">{% if frontpage.subline %}{{ frontpage.subline}}{% endif %}</p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
           <div class="rounded-md shadow">
             <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg">Register</a>
