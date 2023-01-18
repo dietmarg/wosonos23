@@ -10,7 +10,7 @@ public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 collections:
   # - label: "Blog"
   #   name: "blog"
@@ -51,6 +51,7 @@ collections:
               name: img
               widget: object
               allow_multiple: false
+              media_folder: co-inviters
               fields:
                 - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
                 - { label: "Alt Text", name: "alt", widget: "string" }    
