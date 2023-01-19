@@ -30,7 +30,7 @@ path: faq
             </button>
           </dt>
           <dd x-show="isOpen" class="mt-2 pr-12" id="faq-0">
-            <p class="text-base text-gray-500">{{ faq.answer }}
+            <p class="text-base text-gray-500">{{ faq.answer | md | safe }}
             {# The WOSonOS team is happy to issue an official letter of invitation to registered attendees who must obtain a visa for travel to Germany. Please contact us via E-Mail at visa@wosonos2023.berlin. #}
             </p>
           </dd>
