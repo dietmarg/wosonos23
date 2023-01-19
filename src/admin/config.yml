@@ -10,7 +10,7 @@ public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 collections:
   # - label: "Blog"
   #   name: "blog"
@@ -40,7 +40,7 @@ collections:
           - {label: Titel Zeile 1, name: title1, widget: string}
           - {label: Titel Zeile 2, name: title2, widget: string}
           - {label: Subline, name: subline, widget: markdown}     
-          - {label: Co-Inviters-Intro, name: coinv-intro, widget: markdown} 
+          - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown} 
           - label: "Co-Inviters"
             name: "coinviters"
             widget: list
@@ -52,10 +52,20 @@ collections:
               name: img
               widget: object
               allow_multiple: false
-              media_folder: co-inviters
+              media_folder: "/static/img/coinviters"
               fields:
                 - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
-                - { label: "Alt Text", name: "alt", widget: "string" }    
+                - { label: "Alt Text", name: "alt", widget: "string" }  
+      - label: "Frequently Asked Questions"
+        name: "faqpage"
+        file: "src/_data/faq.yaml"
+        fields:
+            - label: "Fragen und Antworten"
+              name: "faqs"
+              widget: list
+              fields: 
+                  - {label: Frage, name: question, widget: string}
+                  - {label: Antwort, name: answer, widget: markdown}
   - label: "Settings"
     name: "settings"
     editor:
