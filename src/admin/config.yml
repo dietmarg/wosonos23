@@ -12,24 +12,6 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  # - label: "Blog"
-  #   name: "blog"
-  #   folder: "src/posts"
-  #   create: true
-  #   editor:
-  #     preview: false
-  #   fields:
-  #     - { label: "Title", name: "title", widget: "string" }
-  #     - { label: "Description", name: "description", widget: "string" }
-  #     - { label: "Author", name: "author", widget: "string" }
-  #     - { label: "Publish Date", name: "date", widget: "datetime" }
-  #     - { label: "Body", name: "body", widget: "markdown" }
-  #     - widget: select
-  #       label: "tags"
-  #       name: "tags"
-  #       multiple: true
-  #       create: true
-  #       options: ["Tags", "created", "from", "config.yml"]
   - label: "Pages"
     name: "pages"
     files:      
@@ -66,6 +48,18 @@ collections:
               fields: 
                   - {label: Frage, name: question, widget: string}
                   - {label: Antwort, name: answer, widget: markdown}
+  - label: "Blog"
+    name: "blog"
+    folder: "src/posts"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Teaser", name: "teaser", widget: "string", hint: "Erscheint als Teaser auf der Startseite", pattern: ['.{12,}', "Must have at least 12 characters"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+              
   - label: "Settings"
     name: "settings"
     editor:
