@@ -58,7 +58,7 @@ collections:
                 - { label: "Alt Text", name: "alt", widget: "string" }  
       - label: "Frequently Asked Questions"
         name: "faqpage"
-        file: "src/_data/faq.yaml"
+        file: "src/_data/faqpage.yaml"
         fields:
             - label: "Fragen und Antworten"
               name: "faqs"
