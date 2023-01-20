@@ -27,6 +27,11 @@ module.exports = function (eleventyConfig) {
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // Heroicons
+  eleventyConfig.addPlugin(require('eleventy-plugin-heroicons'), {
+    className: 'w-6 h-6'
+  });
+
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
