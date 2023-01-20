@@ -2,6 +2,21 @@ title1: Welcome to
 title2: WOSonOS 2023
 subline: The World Open Space on Open Space 2023 is happening 19.-21. October
   2023 at the Beach Mitte in Berlin.
+threecolfeatures:
+  - title: About WOSonOS
+    icon: globe-alt
+    text: >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+      perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+    url: "#"
+  - title: Venue
+    icon: map
+    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+      perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+  - title: Where to stay
+    icon: home
+    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+      perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
 coinvintro: Li Europan lingues es membres del sam familie. Lor separat
   existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
   sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
