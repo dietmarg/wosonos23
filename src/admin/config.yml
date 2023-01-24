@@ -56,6 +56,13 @@ collections:
               fields: 
                   - {label: Frage, name: question, widget: string}
                   - {label: Antwort, name: answer, widget: markdown}
+      - label: "Accommodation"
+        name: "accommodation"        
+        file: "src/_data/accommodation.yaml"
+        fields:
+            - { label: "Label", name: "label", widget: "string", required: false }
+            - { label: "Title", name: "title", widget: "string" }     
+            - { label: "Body", name: "body", widget: "markdown" }
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
