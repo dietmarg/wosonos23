@@ -1,19 +1,22 @@
 title1: Welcome to
 title2: WOSonOS 2023
-subline: The World Open Space on Open Space 2023 takes place in Berlin on 19-21
-  October 2023. It's the annual "gathering of the tribe“ and everyone in touch
-  with Open Space Technology.
+subline: The World Open Space on Open Space 2023 takes place in Berlin from
+  19-21 October 2023. It's the annual "gathering of the tribe“ and everyone in
+  touch with Open Space Technology.
 threecolfeatures:
   - title: About WOSonOS
     icon: globe-alt
-    text: >
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-      perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-    url: ""
+    text: The World Open Space on Open Space is the annual conference and gathering
+      for everyone in touch with Open Space Technology.
+    url: https://openspaceworld.org/wp2/
   - title: Venue
     icon: map
-    text: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-      perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+    text: The WOSonOS 2023 will take place in the beautiful and vivid Beach Mitte,
+      in Berlins most central district and close to the historical site "The
+      Berlin Wall Memorial". Furthermore the venue has 20.000 m² beach area for
+      beachvolleyball, beach soccer, frisbee, and a high wire park. It's mostly
+      barrier-free  and well equipped for workshops and conferences.
+    url: https://beachmitte.de/
   - title: Where to stay
     icon: home
     text: "There are plenty of hotels, guest houses and hostels in different
