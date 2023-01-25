@@ -63,7 +63,7 @@ collections:
             - { label: "Label", name: "label", widget: "string", required: false }
             - { label: "Title", name: "title", widget: "string" }     
             - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Blog"
+  - label: "News"
     name: "blog"
     folder: "src/posts"
     create: true
@@ -72,7 +72,7 @@ collections:
     fields:
       - { label: "Label", name: "label", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Teaser", name: "teaser", widget: "string", hint: "Erscheint auf der Startseite", pattern: ['.{10,200}', "Must have min 10 – max 200 characters"] }
+      - { label: "Teaser", name: "description", widget: "string", hint: "Erscheint auf der Startseite", pattern: ['.{10,200}', "Must have min 10 – max 200 characters"] }
       - { label: "Body", name: "body", widget: "markdown" }
               
   - label: "Settings"
