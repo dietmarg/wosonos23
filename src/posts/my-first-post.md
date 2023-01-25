@@ -9,6 +9,9 @@ tags:
   - left
   - center
   - right
+label: Werther
+teaser: "Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich
+  den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. "
 ---
 # This is a Heading h1
 
