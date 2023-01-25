@@ -7,6 +7,8 @@ description: Bring to the table win-win survival strategies to ensure proactive
 date: 2020-09-23T15:13:13.021Z
 author: Surjith S M
 tags: second-tag
+label: strategy
+teaser: Bring to the table win-win survival strategies to ensure proactive domination.
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
