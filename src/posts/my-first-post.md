@@ -9,7 +9,7 @@ tags:
   - left
   - center
   - right
-label: Werther
+label: Post
 teaser: "Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich
   den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. "
 ---
