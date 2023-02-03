@@ -1,14 +1,14 @@
 title1: Welcome to
 title2: WOSonOS 2023
 subline: The World Open Space on Open Space 2023 takes place in Berlin from
-  19-21 October 2023. It's the annual "gathering of the tribe“ and everyone in
-  touch with Open Space Technology.
+  19-21 October 2023. It's the annual gathering of Open Space Practicioners and
+  open for everyone interested in Open Space Technology.
 threecolfeatures:
   - title: About WOSonOS
     icon: globe-alt
-    text: The World Open Space on Open Space is the annual conference and gathering
-      for everyone in touch with Open Space Technology.
-    url: https://openspaceworld.org/wp2/
+    text: You are interested to learn more about Open Space? Or you are looking for
+      practicioners worldwide? See our collection of valuable ressources.
+    url: https://iridescent-cat-32bcca.netlify.app/
   - title: Venue
     icon: map
     text: The WOSonOS 2023 will take place in Berlins most central district, close
@@ -20,13 +20,14 @@ threecolfeatures:
   - title: Where to stay
     icon: home
     text: "There are plenty of hotels, guest houses and hostels in different
-      categories nearby. Please check here for a list of accomodations within
+      categories nearby. Please check here for a list of accommodations within
       walking distance. "
     url: /accommodation
-coinvintro: Li Europan lingues es membres del sam familie. Lor separat
-  existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
-  sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-  li plu commun vocabules.
+coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+  enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 coinviters:
   - name: Thomas Herrmann
     country: Sweden
