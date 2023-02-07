@@ -1,0 +1,31 @@
+<!-- Pretix-Modal -->
+<div
+        style="background-color: rgba(0, 0, 0, .5)" 
+        class="mx-auto absolute top-0 left-0 w-full h-full flex items-center shadow-lg overflow-y-auto z-50"   
+        x-show="isOpen"       
+    >
+        <div class="container mx-auto md:w-3/4 rounded p-4 mt-2 overflow-y-auto">
+            <div class="bg-white rounded px-8 py-8">
+                <h1 class="font-bold text-2xl mb-3">Coming soon …</h1>
+                <pretix-widget event="https://pretix.eu/boscop/wosonos2023/" disable-iframe></pretix-widget>
+                <noscript>
+                    <div class="pretix-widget">
+                        <div class="pretix-widget-info-message">
+                            JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticket-Shop ohne JavaScript aufzurufen, klicken Sie bitte <a   target="_blank" rel="noopener" href="https://pretix.eu/boscop/wosonos2023/">hier</a>.
+                        </div>
+                    </div>
+                </noscript>
+
+                <div class="mt-4">
+                    <button 
+                        class="bg-sky-700 text-white px-4 py-3 mt-4 text-sm rounded"
+                        @click="isOpen = false"
+                        x-ref="modalCloseButton"
+                    >
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /Modal -->      
