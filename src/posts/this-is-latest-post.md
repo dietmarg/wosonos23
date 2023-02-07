@@ -1,5 +1,5 @@
 ---
-title: Sanna Schondelmayer and her team will our facilitators
+title: Facilitation of Sanna Schondelmayer and her team
 description: "Get to know Sanna and her team from Berlin-based cooperative
   “boscop“ wo will facilitate this years WOSonOS. "
 date: 2020-09-23T15:13:13.021Z
