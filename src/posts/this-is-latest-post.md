@@ -5,7 +5,7 @@ description: "Get to know Sanna and her team from Berlin-based cooperative
 date: 2020-09-23T15:13:13.021Z
 author: Surjith S M
 tags: second-tag
-label: Facilitator
+label: Facilitation
 teaser: Bring to the table win-win survival strategies to ensure proactive domination.
 ---
 ![Sanna Schondelmayer](/static/img/sanna-schondelmayer.webp)
