@@ -1,20 +1,15 @@
 ---
-title: This is my fourth & latest post
-description: Bring to the table win-win survival strategies to ensure proactive
-  domination. At the end of the day, going forward, a new normal that has
-  evolved from generation X is on the runway heading towards a streamlined cloud
-  solution.
+title: Sanna Schondelmayer and her team will facilitate WOSonOS 2023
+description: "Get to know Sanna and her team from Berlin-based cooperative
+  “boscop“ wo will facilitate this years WOSonOS. "
 date: 2020-09-23T15:13:13.021Z
 author: Surjith S M
 tags: second-tag
-label: strategy
+label: Facilitation
 teaser: Bring to the table win-win survival strategies to ensure proactive domination.
 ---
+![Sanna Schondelmayer](/static/img/sanna-schondelmayer.webp)
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+As a researching and teaching ethnologist and during longer stay abroad (in Israel, Russia, Poland, France) I argued early and intensely with human everyday culture and practiced in varied environments, branches and regions of the world. I allowed myself to be irritated and enchanted, shock and for a certain time taken in by manifold perspectives on the world and global like local differences and common characteristics. I saw the most different working and life concepts, gender and family concepts, leadership and working styles.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+In parallel with the scientific discussion on the variety and complexity of human culture disclosed to me by my education, my work as a mediator and the following practical work with people in workshops, trainings and consultations inspired a sensory-like linkings between theory and practice. Mutual learning processes between the work, communication and interaction, began and found entrance in varied publications and the advancement of training methods within. This process continues and is continuously inspired by the active exchange with colleagues.
