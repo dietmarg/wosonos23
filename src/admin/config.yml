@@ -63,6 +63,13 @@ collections:
             - { label: "Label", name: "label", widget: "string", required: false }
             - { label: "Title", name: "title", widget: "string" }     
             - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About WOSonOS"
+        name: "wosonos"        
+        file: "src/_data/wosonos.yaml"
+        fields:
+            - { label: "Label", name: "label", widget: "string", required: false }
+            - { label: "Title", name: "title", widget: "string" }     
+            - { label: "Body", name: "body", widget: "markdown" }      
   - label: "News"
     name: "blog"
     folder: "src/posts"
