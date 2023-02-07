@@ -9,9 +9,9 @@ path: home
       <div class="px-6 sm:px-8 lg:w-1/2 xl:pr-16">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 lg:text-left sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
           {# <span class="block xl:inline">Welcome to the </span>
-          <span class="block text-indigo-600 xl:inline">WOSonOS 2023</span> #}
+          <span class="block text-sky-700 xl:inline">WOSonOS 2023</span> #}
           <span class="block xl:inline">{% if frontpage.title1 %}{{ frontpage.title1 }}{% endif %}</span>
-          <span class="block text-indigo-600 xl:inline">{% if frontpage.title2 %}{{ frontpage.title2 }}{% endif %}</span>
+          <span class="block text-sky-700 xl:inline">{% if frontpage.title2 %}{{ frontpage.title2 }}{% endif %}</span>
         </h1>
         <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">{% if frontpage.subline %}{{ frontpage.subline}}{% endif %}</p>
         <div x-data="{ isOpen: false }" class="mt-10 sm:flex sm:justify-center lg:justify-start">
@@ -19,7 +19,7 @@ path: home
             <a href="#"  @click="isOpen = true
                     $nextTick(() => $refs.modalCloseButton.focus())
                     "
-                    class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg">Register</a>
+                    class="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-400 md:py-4 md:px-10 md:text-lg">Register</a>
             <!-- Modal -->
             <div
                     style="background-color: rgba(0, 0, 0, .5)" 
@@ -47,14 +47,14 @@ path: home
           <!-- /Modal -->        
           </div>
           <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a href="#info" class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg">More Info</a>
+            <a href="#info" class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-sky-700 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg">More Info</a>
           </div>
           
         </div>
       </div>
     </div>
     <div class="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2 z-10">
-      <img class="absolute inset-0 h-full w-full object-cover" src="/static/img/beach.jpeg" alt="">
+      <img class="absolute inset-0 h-full w-full object-cover" src="/static/img/bme_locations_gl9.jpg" alt="">
     </div>
   </main>
 </div>
@@ -70,7 +70,7 @@ path: home
       {% for feature in frontpage.threecolfeatures %}{% if loop.index0 < 3 %}
         <div>
           <dt>
-            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-600 text-white">
               <!-- Heroicon name: outline/globe-alt -->
               {% heroicon "outline", feature.icon %}
 
@@ -80,7 +80,7 @@ path: home
           <dd class="mt-2 text-base leading-7 text-gray-600">{{ feature.text }}</dd>
           {% if feature.url %}
             <div class="mt-4">
-              <a href="{{ feature.url }}" class="text-sm text-indigo-600 hover:text-indigo-500">Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+              <a href="{{ feature.url }}" class="text-sm text-sky-700 hover:text-sky-500">Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
               </svg>
               </a>
@@ -107,8 +107,8 @@ path: home
     
 
     <div class="relative">
-      <!-- <img class="mx-auto h-8" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg" alt="Workcation"> -->
-      <h2 class="mx-auto text-center text-4xl font-bold tracking-tight text-indigo-600">About Open Space Technology<h2>
+      <!-- <img class="mx-auto h-8" src="https://tailwindui.com/img/logos/workcation-logo-sky-700-mark-gray-800-and-sky-700-text.svg" alt="Workcation"> -->
+      <h2 class="mx-auto text-center text-4xl font-bold tracking-tight text-sky-700">About Open Space Technology<h2>
       <blockquote class="mt-10">
         <div class="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-500">
           <p>&ldquo;...At the end of the day Open Space Technology is not about having great meetings. Nor is it simply another tool in the facilitators’ tool box, although both are doubtless true. For me the true equity I find in OST is the ongoing natural experiment and learning experience of living intentionally in a self-organizing world .&rdquo;</p>
@@ -121,7 +121,7 @@ path: home
             <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
               <div class="text-base font-medium text-gray-900">Harrison Owen</div>
 
-              <svg class="mx-1 hidden h-5 w-5 text-indigo-600 md:block" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="mx-1 hidden h-5 w-5 text-sky-700 md:block" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M11 0h3L9 20H6l5-20z" />
               </svg>
 
@@ -148,7 +148,7 @@ path: home
       <div>
         {% if post.data.label %}<div>
           <a href="{{ post.url | url }}" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">{{ post.data.label}}</span>
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-sky-100 text-sky-800">{{ post.data.label}}</span>
           </a>
         </div>{% endif %}
         <a href="{{ post.url | url }}" class="mt-4 block">
@@ -156,7 +156,7 @@ path: home
           <p class="mt-3 text-base text-gray-500">{{ post.data.description }}</p>
         </a>
           <div class="mt-4">
-          <a href="{{ post.url | url }}" class="text-sm text-indigo-600 hover:text-indigo-500">Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+          <a href="{{ post.url | url }}" class="text-sm text-sky-700 hover:text-sky-500">Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
           </svg>
           </a>
@@ -179,7 +179,7 @@ path: home
         <label for="email-address" class="sr-only">Email address</label>
         <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full rounded-md border border-transparent px-5 py-3 placeholder-gray-500 focus:border-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 sm:max-w-xs" placeholder="Enter your email"> -->
         <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-          <button type="submit" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-500 px-5 py-3 text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-800">Register</button>
+          <button type="submit" class="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-500 px-5 py-3 text-base font-medium text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-gray-800">Register</button>
         </div>
        <!--</form> -->
       <!-- <p class="mt-3 text-sm text-gray-300">
@@ -221,7 +221,7 @@ path: home
               </div>
               <div class="space-y-1 text-lg font-medium leading-6">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-sky-700">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -254,7 +254,7 @@ path: home
               </div>
               <div class="space-y-1 text-lg font-medium leading-6">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-sky-700">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
