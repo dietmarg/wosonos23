@@ -9,7 +9,7 @@ threecolfeatures:
     icon: globe-alt
     text: You are interested to learn more about Open Space? Or you are looking for
       practicioners worldwide? See our collection of valuable ressources.
-    url: https://iridescent-cat-32bcca.netlify.app/
+    url: /wosonos
   - title: Venue
     icon: map
     text: The WOSonOS 2023 will take place in Berlins most central district, close
