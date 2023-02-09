@@ -34,6 +34,15 @@ invite:
     cooperatives which have been using Open Space extensively in their everyday
     work for many years and collaborate with each other on various projects.
   inviters:
+    - name: boscop eG
+      text: We @boscop are specialists in planning and facilitating processes to
+        support the development of self-organisation.
+      img:
+        url: /static/img/boscop.png
+        alt: '""'
+      url: https://www.boscop.org/
+      linkedin: "#"
+      email: mailto:kontakt@boscop.org
     - name: Reinblau eG
       text: Reinblau is a Berlin-based cooperative specialized in consulting, design
         and agile development. Values such as transparency, self organization
@@ -45,15 +54,6 @@ invite:
       url: https://reinblau.coop/
       linkedin: https://www.linkedin.com/company/reinblau/
       email: info@reinblau.de
-    - name: boscop eG
-      text: We @boscop are specialists in planning and facilitating processes to
-        support the development of self-organisation.
-      img:
-        url: /static/img/boscop.png
-        alt: '""'
-      url: https://www.boscop.org/
-      linkedin: "#"
-      email: mailto:kontakt@boscop.org
 coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
   commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
   magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
