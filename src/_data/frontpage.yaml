@@ -28,6 +28,11 @@ threecolfeatures:
       categories nearby. Please check here for a list of accommodations within
       walking distance. "
     url: /accommodation
+invite:
+  title: We invite you
+  intro: The WOSonOS 2023 is hosted by boscop and reinblau – two Berlin based
+    cooperatives which have been using Open Space extensively in their everyday
+    work for many years and collaborate with each other on various projects.
 coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
   commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
   magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
