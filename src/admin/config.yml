@@ -30,7 +30,29 @@ collections:
               - {label: Icon, name: icon, widget: string, hint: "Bezeichnung nach https://heroicons.com/" }
               - {label: Text, name: text, widget: text }
               - {label: Readmore-Link, name: url, widget: string, required: false }
-          - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown} 
+          - label: Invite
+            name: invite
+            widget: object
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Intro-Text, name: intro, widget: text }
+              - label: Inviters
+                name: inviters
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Text, name: text, widget: text }
+                  - label: Bild
+                    name: img
+                    widget: object
+                    allow_multiple: false
+                    fields:
+                      - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg,  ca. 730 x 410px' }
+                      - { label: "Alt Text", name: "alt", widget: "string" } 
+                  - {label: Website, name: url, widget: string} 
+                  - {label: LinkedIn, name: linkedin, widget: string, hint: 'Vollständige URl zum Profil, z. B.: https://www.linkedin.com/company/reinblau/'}
+                  - {label: E-Mail, name: email, widget: string} 
+          - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown}  
           - label: "Co-Inviters"
             name: "coinviters"
             widget: list
