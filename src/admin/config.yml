@@ -49,9 +49,9 @@ collections:
                     fields:
                       - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg,  ca. 730 x 410px' }
                       - { label: "Alt Text", name: "alt", widget: "string" } 
-                  - {label: Website, name: url, widget: string} 
-                  - {label: LinkedIn, name: linkedin, widget: string, hint: 'Vollständige URl zum Profil, z. B.: https://www.linkedin.com/company/reinblau/'}
-                  - {label: E-Mail, name: email, widget: string} 
+                  - {label: Website, name: url, widget: string, required: false } 
+                  - {label: LinkedIn, name: linkedin, widget: string, hint: 'Vollständige URl zum Profil, z. B.: https://www.linkedin.com/company/reinblau/', required: false }
+                  - {label: E-Mail, name: email, widget: string, required: false } 
           - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown}  
           - label: "Co-Inviters"
             name: "coinviters"
