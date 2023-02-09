@@ -41,7 +41,7 @@ invite:
         url: /static/img/boscop.png
         alt: '""'
       url: https://www.boscop.org/
-      linkedin: "#"
+      linkedin: ""
       email: mailto:kontakt@boscop.org
     - name: Reinblau eG
       text: Reinblau is a Berlin-based cooperative specialized in consulting, design
