@@ -33,6 +33,18 @@ invite:
   intro: The WOSonOS 2023 is hosted by boscop and reinblau – two Berlin based
     cooperatives which have been using Open Space extensively in their everyday
     work for many years and collaborate with each other on various projects.
+  inviters:
+    - name: Reinblau eG
+      text: Reinblau is a Berlin-based cooperative specialized in consulting, design
+        and agile development. Values such as transparency, self organization
+        and sustainable cooperation are the guidelines for what we are doing.
+      img:
+        url: /static/img/rb_team.jpg
+        alt: Reinblau-Mitglieder sitzen im Kreis bei einem Teamtreffen im
+          Open-Space-Format.
+      url: https://reinblau.coop/
+      linkedin: https://www.linkedin.com/company/reinblau/
+      email: info@reinblau.de
 coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
   commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
   magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
