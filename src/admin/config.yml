@@ -54,23 +54,25 @@ collections:
                   - {label: E-Mail, name: email, widget: string, required: false } 
           - label: "Co-Inviters"
             name: coinvitation
-            widget: object      
-              - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown}  
+            widget: object     
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: coinvintro, widget: text }  
               - label: "Co-Inviters"
                 name: "coinviters"
                 widget: list
                 fields: 
-                - {label: Name, name: name, widget: string}
-                - {label: Country, name: country, widget: string}
-                - {label: E-Mail, name: email, widget: string}
-                - label: Bild
-                  name: img
-                  widget: object
-                  allow_multiple: false
-                  media_folder: "/static/img/coinviters"
-                  fields:
-                    - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
-                    - { label: "Alt Text", name: "alt", widget: "string" }  
+                  - {label: Name, name: name, widget: string}
+                  - {label: Country, name: country, widget: string}
+                  - {label: E-Mail, name: email, widget: string}
+                  - label: Bild
+                    name: img
+                    widget: object
+                    allow_multiple: false
+                    media_folder: "/static/img/coinviters"
+                    fields:
+                      - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
+                      - { label: "Alt Text", name: "alt", widget: "string" }  
       - label: "Frequently Asked Questions"
         name: "faqpage"
         file: "src/_data/faqpage.yaml"
