@@ -75,5 +75,5 @@ coinvitation:
       country: Sweden
       email: thomas@openspaceconsulting.com
       img:
-        url: /static/img/thomas.jpg
-        alt: '""'
+        url: ""
+        alt: ""
