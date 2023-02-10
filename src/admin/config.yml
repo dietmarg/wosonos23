@@ -70,6 +70,8 @@ collections:
                     widget: object
                     allow_multiple: false
                     media_folder: "/static/img/coinviters"
+                    default: "static/img/avatar.svg"
+                    required: false
                     fields:
                       - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
                       - { label: "Alt Text", name: "alt", widget: "string" }  
