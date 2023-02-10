@@ -70,10 +70,9 @@ collections:
                     widget: object
                     allow_multiple: false
                     media_folder: "/static/img/coinviters"
-                    default: "static/img/avatar.svg"
                     required: false
                     fields:
-                      - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px', required: false }
+                      - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px', required: false, default: "/static/img/avatar.png" }
                       - { label: "Alt Text", name: "alt", widget: "string", required: false }  
       - label: "Frequently Asked Questions"
         name: "faqpage"
