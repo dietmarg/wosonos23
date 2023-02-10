@@ -52,22 +52,25 @@ collections:
                   - {label: Website, name: url, widget: string, required: false } 
                   - {label: LinkedIn, name: linkedin, widget: string, hint: 'Vollständige URl zum Profil, z. B.: https://www.linkedin.com/company/reinblau/', required: false }
                   - {label: E-Mail, name: email, widget: string, required: false } 
-          - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown}  
           - label: "Co-Inviters"
-            name: "coinviters"
-            widget: list
-            fields: 
-            - {label: Name, name: name, widget: string}
-            - {label: Country, name: country, widget: string}
-            - {label: E-Mail, name: email, widget: string}
-            - label: Bild
-              name: img
-              widget: object
-              allow_multiple: false
-              media_folder: "/static/img/coinviters"
-              fields:
-                - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
-                - { label: "Alt Text", name: "alt", widget: "string" }  
+            name: coinvitation
+            widget: object      
+              - {label: Co-Inviters-Intro, name: coinvintro, widget: markdown}  
+              - label: "Co-Inviters"
+                name: "coinviters"
+                widget: list
+                fields: 
+                - {label: Name, name: name, widget: string}
+                - {label: Country, name: country, widget: string}
+                - {label: E-Mail, name: email, widget: string}
+                - label: Bild
+                  name: img
+                  widget: object
+                  allow_multiple: false
+                  media_folder: "/static/img/coinviters"
+                  fields:
+                    - { label: "Bild", name: "url", widget: "image", hint: 'Bild als jpg, quadratisch, ca. 256 x 256px' }
+                    - { label: "Alt Text", name: "alt", widget: "string" }  
       - label: "Frequently Asked Questions"
         name: "faqpage"
         file: "src/_data/faqpage.yaml"
@@ -85,6 +88,13 @@ collections:
             - { label: "Label", name: "label", widget: "string", required: false }
             - { label: "Title", name: "title", widget: "string" }     
             - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Impressum"
+        name: "impressum"        
+        file: "src/_data/impressum.yaml"
+        fields:
+            - { label: "Label", name: "label", widget: "string", required: false }
+            - { label: "Title", name: "title", widget: "string" }     
+            - { label: "Body", name: "body", widget: "markdown" }      
       - label: "About WOSonOS"
         name: "wosonos"        
         file: "src/_data/wosonos.yaml"
@@ -121,18 +131,6 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      # - label: "Quick Links"
-      #   name: "links"
-      #   file: "src/_data/quicklinks.yaml"
-      #   fields:
-      #     - label: Nav Items
-      #       name: links
-      #       widget: list
-      #       collapsed: false
-      #       fields:
-      #         - { label: Title, name: title, widget: string }
-      #         - { label: URL, name: url, widget: string }
-      #         - { label: Description, name: desc, widget: string }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
