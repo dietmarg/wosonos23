@@ -35,10 +35,18 @@ invite:
     work for many years and collaborate with each other on various projects.
   inviters:
     - name: boscop eG
-      text: We @boscop are specialists in planning and facilitating processes to
-        support the development of self-organisation.
+      text: "We are a cooperative of facilitators and consultants who support clients
+        in the planning and implementation of any kind of conferences, network
+        meetings, team retreats, workshops or longer-term change projects. We
+        are experts in inclusive and and dialogue-oriented group processes that
+        allow up to 2000 participants to engage in an interactive and
+        goal-oriented exchange, to plan their future, develop new ideas and
+        products, to clarify conflicts, to redesign organisations. We work with
+        Open Space, World Café and Future Search and other formats that bring
+        the whole system into one room. After 2000 and 2010 it is a privilege
+        for us to host the WOSonOS 2023 together with Reinblau in Berlin. "
       img:
-        url: /static/img/boscop.png
+        url: /static/img/img_1850.jpg
         alt: '""'
       url: https://www.boscop.org/
       linkedin: ""
