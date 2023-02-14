@@ -6,6 +6,18 @@ module.exports = {
     },
     extend: {
       colors: {},
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              color: '#0369A1',
+              '&:hover': {
+                color: '#0284C7',
+              },
+            },
+          },
+        },
+      },
     },
   },
   variants: {},
