@@ -77,10 +77,4 @@ coinvitation:
   title: Co-Inviters
   coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
     commodo ligula eget dolor. Aenean massa.
-  coinviters:
-    - name: Thomas Test Herrmann
-      country: Sweden
-      email: thomas@openspaceconsulting.com
-      img:
-        url: ""
-        alt: ""
+  coinviters: []
