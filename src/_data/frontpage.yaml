@@ -85,3 +85,8 @@ coinvitation:
       name: Ian Andersen
       country: Belgium
       email: antusheng56@icloud.com
+    - img:
+        url: /static/img/bhav_patel.jpg
+      name: Bhav Patel
+      country: Great Britain, Moldova
+      email: peoplejazzing@gmail.com
