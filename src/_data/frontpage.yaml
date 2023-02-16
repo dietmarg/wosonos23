@@ -77,4 +77,10 @@ coinvitation:
   title: Co-Inviters
   coinvintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
     commodo ligula eget dolor. Aenean massa.
-  coinviters: []
+  coinviters:
+    - img:
+        url: /static/img/ian-andersen.jpg
+        alt: '""'
+      name: Ian Andersen
+      country: Belgium
+      email: antusheng56@icloud.com
