@@ -96,3 +96,9 @@ coinvitation:
       name: Doris Gottlieb
       country: Netherlands
       email: doris@dorisgottlieb.com
+    - img:
+        url: /static/img/lise_damkjaer.jpg
+        alt: Lise Damkjaer
+      name: Lise Damkjaer
+      country: Denmark
+      email: lise@learning4life.dk
