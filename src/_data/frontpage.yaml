@@ -90,3 +90,9 @@ coinvitation:
       name: Bhav Patel
       country: Great Britain, Moldova
       email: peoplejazzing@gmail.com
+    - img:
+        url: /static/img/doris-gottlieb.png
+        alt: Doris Gottlieb
+      name: Doris Gottlieb
+      country: Netherlands
+      email: doris@dorisgottlieb.com
