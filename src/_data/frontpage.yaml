@@ -102,3 +102,9 @@ coinvitation:
       name: Lise Damkjaer
       country: Denmark
       email: lise@learning4life.dk
+    - img:
+        url: /static/img/thomas_herrmann.jpeg
+        alt: Thomas Herrmann
+      name: Thomas
+      country: Herrmann
+      email: thomas@openspaceconsulting.com
