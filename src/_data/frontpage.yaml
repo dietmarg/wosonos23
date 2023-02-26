@@ -105,6 +105,6 @@ coinvitation:
     - img:
         url: /static/img/thomas_herrmann.jpeg
         alt: Thomas Herrmann
-      name: Thomas
-      country: Herrmann
+      name: Thomas Herrmann
+      country: Sweden
       email: thomas@openspaceconsulting.com
