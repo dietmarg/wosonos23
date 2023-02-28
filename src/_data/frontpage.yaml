@@ -108,3 +108,9 @@ coinvitation:
       name: Thomas Herrmann
       country: Sweden
       email: thomas@openspaceconsulting.com
+    - img:
+        url: /static/img/funda-oral.jpg
+        alt: Funda Oral
+      name: Funda Oral
+      country: Turkey
+      email: fundaoral@gmail.com
