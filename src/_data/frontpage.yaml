@@ -103,7 +103,7 @@ coinvitation:
       country: Denmark
       email: lise@learning4life.dk
     - img:
-        url: /static/img/thomas_herrmann.jpeg
+        url: /static/img/thomas_herrmann_closeup.jpeg
         alt: Thomas Herrmann
       name: Thomas Herrmann
       country: Sweden
