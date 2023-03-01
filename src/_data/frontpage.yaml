@@ -114,3 +114,9 @@ coinvitation:
       name: Funda Oral
       country: Turkey
       email: fundaoral@gmail.com
+    - img:
+        url: /static/img/susanna_anisha.jpg
+        alt: Susanna Anisha
+      email: anishasusanna@gmail.com
+      name: Susanna Anisha
+      country: Malaysia
