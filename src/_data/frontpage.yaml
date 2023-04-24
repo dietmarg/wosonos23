@@ -126,3 +126,9 @@ coinvitation:
       name: Bogdan Maslych
       country: Ukraine
       email: maslychb@gmail.com
+    - img:
+        url: /static/img/christine_koehler.jpg
+        alt: Christine Koehler
+      name: Christine Koehler
+      country: France
+      email: chrisihab@hotmail.fr
