@@ -2,7 +2,7 @@
 label: Schedule
 title: How will the program look like?
 description: Traditionally, it will all start with the Welcome Ceremony and an
-  easy get together Wednesday afternoon.
+  easy get together Wednesday at 4pm.
 ---
 ### **Oct 18**
 
