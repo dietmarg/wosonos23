@@ -1,8 +1,8 @@
 ---
 label: Schedule
 title: How will the program look like?
-description: Get to know about the program of WOSonOS here. Traditionally, it
-  will all start with the Welcome Ceremony and an easy get together.
+description: Traditionally, it will all start with the Welcome Ceremony and an
+  easy get together Wednesday afternoon.
 ---
 ### **Oct 18**
 
