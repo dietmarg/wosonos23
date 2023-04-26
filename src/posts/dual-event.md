@@ -11,6 +11,7 @@ label: "WOSonOS and IAF: Dual event in Berlin "
 teaser: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches
 ---
-From October 16 through 18, 2023 the German chapter of the [International Association of Facilitators](https://www.iaf-world.org/) conducts the annual conference for Europe and Middle East in Berlin at the same venue: Beach Mitte. The title of the 2023 IAF conference is "Entering Brave Space(s) - facilitating beyond beaten tracks". More information will follow
+From October 16 through 18, 2023 the German chapter of the Internatioal Association of Facilitators [](https://www.iaf-world.org/)conducts the annual conference for Europe and Middle East in Berlin at the same venue: Beach Mitte. The title of the 2023 IAF conference is "Entering Brave Space(s) - facilitating beyond beaten tracks". \
+[» More information ](https://www.iaf-world.org/site/events/eme-conference-2023-berlin-entering-brave-spaces-facilitating-beyond-beaten-tracks)
 
-![](/static/img/iaf_member_logo1_rgb.jpg)
+![Logo IAF](/static/img/iaf_member_logo1_rgb.jpg)
