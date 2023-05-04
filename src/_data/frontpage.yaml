@@ -134,7 +134,7 @@ coinvitation:
       email: chrisihab@hotmail.fr
     - img:
         url: /static/img/silvia-ferrari.jpg
-        alt: Silvia Ferrari
+        alt: "Silvia Ferrari "
       name: Silvia Ferrari
       country: Italy
       email: silvia@mooncult.it
