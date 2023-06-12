@@ -16,6 +16,4 @@ description: Traditionally, it will all start with the Welcome Ceremony and an
 
 9:30am – 1pm | Action planning, reflection, outlook & handing over of the talking stick
 
-
-
-[» Download program as PDF](src/static/img/wosonos_2023_program.pdf)
+[» Download program as PDF](www.wosonos2023.berlin/src/static/img/wosonos_2023_program.pdf)
