@@ -15,3 +15,7 @@ description: Traditionally, it will all start with the Welcome Ceremony and an
 ### **Oct 21, 2023**
 
 9:30am – 1pm | Action planning, reflection, outlook & handing over of the talking stick
+
+
+
+[» Download program as PDF](src/static/img/wosonos_2023_program.pdf)
