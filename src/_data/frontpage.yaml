@@ -138,3 +138,8 @@ coinvitation:
       name: Silvia Ferrari
       country: Italy
       email: silvia@mooncult.it
+    - img:
+        url: /static/img/julius_tacha.jpg
+      name: Julius Tachar
+      country: Austria
+      email: julius.tacha@posteo.at
