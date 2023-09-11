@@ -24,9 +24,12 @@ threecolfeatures:
     url: https://beachmitte-events.de/
   - title: Where to stay
     icon: home
-    text: "There are plenty of hotels, guest houses and hostels in different
+    text: >-
+      There are plenty of hotels, guest houses and hostels in different
       categories nearby. Please check here for a list of accommodations within
-      walking distance. "
+      walking distance. We can also support you in finding private
+
+      accommodation with local community members (couchsurfing).
     url: /accommodation
 invite:
   title: We invite you
