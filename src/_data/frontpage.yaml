@@ -153,3 +153,9 @@ coinvitation:
       name: Jon Harvey
       email: jon@jonharveyassociates.co.uk
       country: UK
+    - img:
+        url: /static/img/jlw-albufera.jpg
+        alt: Juan Luis Walker
+      name: Juan Luis Walker
+      country: ES
+      email: juanluiswalker@gmail.com
