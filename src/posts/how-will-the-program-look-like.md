@@ -7,7 +7,8 @@ description: Traditionally, it will all start with the Welcome Ceremony and an
 ### **Wednesday, Oct 18**
 
 4pm | Arriving\
-6 pm | Welcome & informal get-together 
+6 pm | Welcome & informal get-together \
+7:30pm | Party time in cooperation with the IAF-Conference-Participants
 
 ### **Thursday Oct 19**
 
