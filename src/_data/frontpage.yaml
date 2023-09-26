@@ -90,6 +90,7 @@ coinvitation:
       email: antusheng56@icloud.com
     - img:
         url: /static/img/bhav_patel.jpg
+        alt: Bhav Patel
       name: Bhav Patel
       country: Moldova
       email: peoplejazzing@gmail.com
@@ -152,10 +153,10 @@ coinvitation:
         alt: Jon Harvey
       name: Jon Harvey
       email: jon@jonharveyassociates.co.uk
-      country: UK
+      country: United Kingdom
     - img:
-        url: /static/img/jlw-albufera.jpg
+        url: /static/img/juan-luis-walker.jpg
         alt: Juan Luis Walker
       name: Juan Luis Walker
-      country: ES
+      country: Spain
       email: juanluiswalker@gmail.com
