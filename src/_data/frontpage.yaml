@@ -160,3 +160,9 @@ coinvitation:
       name: Juan Luis Walker
       country: Spain
       email: juanluiswalker@gmail.com
+    - img:
+        url: /static/img/nummi-pepe.jpg
+        alt: Nummi Pepe
+      name: Nummi Pepe
+      country: Finland
+      email: pepe@grapepeople.fi
